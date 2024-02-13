@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #e79fc4;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -429,7 +429,7 @@ header {
 }
 
 .footer a { 
-    color: inherit;
+    color: white;
     text-decoration: none;
 }
 
@@ -437,10 +437,29 @@ header {
     font-weight: var(--fw-bold);
 }
 
-.footer__link:hover,
-.social-list__link:hover {
+.footer__link:hover {
     opacity: .7;
 }
+
+.social-list__link1:hover{
+    color: red;
+}
+
+.social-list__link2:hover{
+    color: #ff1493; 
+}
+
+.social-list__link3:hover{
+    color: #00b7eb;
+}
+
+.social-list__link4:hover{
+    color: white;
+}
+
+/*.social-list__item1:hover {
+    color: red;
+}*/
 
 .footer__link:hover {
     text-decoration: underline;
