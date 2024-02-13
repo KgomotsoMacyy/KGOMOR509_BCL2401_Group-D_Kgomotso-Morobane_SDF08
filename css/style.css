@@ -413,7 +413,7 @@ header {
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    opacity: 10;
 }
 
 
@@ -455,14 +455,6 @@ header {
 
 .social-list__link4:hover{
     color: white;
-}
-
-/*.social-list__item1:hover {
-    color: red;
-}*/
-
-.footer__link:hover {
-    text-decoration: underline;
 }
 
 .social-list {
