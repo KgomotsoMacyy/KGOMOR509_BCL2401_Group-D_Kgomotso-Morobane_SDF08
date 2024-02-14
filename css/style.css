@@ -103,7 +103,9 @@ h3 { font-size: var(--fs-h3) }
 
 
 .section__title {
-    margin-bottom: .25em;
+    display: grid;
+/*    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: .25em;*/
 }
 
 .section__title--intro {
@@ -119,12 +121,23 @@ h3 { font-size: var(--fs-h3) }
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+}
+
+.section__subtitle--intro {
+    background: var(--clr-accent);
+    color: va(--clr-light);
+    font-family: var(--ff-secondary);
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section__subtitle--work {
@@ -139,10 +152,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-}
-
-.logo {
-    max-width: 100px;
 }
 
 .nav {
@@ -293,7 +302,7 @@ header {
 
 /*  My services section  */
 
-.my-services {
+/*.my-services {
     background-color: var(--clr-dark);
     background-size: cover;
     background-blend-mode: multiply; 
@@ -338,8 +347,13 @@ header {
     }
 }
 
-
+*/
 .about-me {
+    background-color: var(--clr-dark);
+    background-size: cover;
+    background-blend-mode: multiply; 
+    color: var(--clr-light);
+    text-align: center;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -383,8 +397,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;    
 }
 
@@ -394,7 +408,6 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
     overflow: hidden;
 }
 
@@ -428,12 +441,14 @@ header {
 }
 
 .footer a { 
+    font-weight: var(--fw-bold);
     color: white;
     text-decoration: none;
 }
 
-.footer__link {
+.footer__link0:hover {
     font-weight: var(--fw-bold);
+    color: var(--clr-accent)
 }
 
 .footer__link:hover {
