@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DevMotso Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> -->    
         
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
         <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -20,9 +20,11 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <!--<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>-->
+                    <li class="nav__item"><a href="#about" class="nav__link"><i class="fa fa-user"></i></a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+                    <li class="nav__item"><a href="#contactme" class="nav__link"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -30,9 +32,15 @@
         <!-- Introduction -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Kgomotso Morobane</strong>
+                Hi, I'm <strong>Kgomotso Morobane</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+            <div class="bttn">
+                <button href="https://www.w3schools.com/html/" class="bttn1"><i1 class="fab fa-html5" aria-hidden="true"></i1> HTML</button>
+                <button class="bttn2"><i2 class="fab fa-css3-alt" aria-hidden="true"></i1> CSS</button>
+                <button class="bttn3"><i3 class="fab fa-js"></i>  JavaScript</button>
+                <button class="bttn4"><i4 class="fab fa-github" aria-hidden="true"></i1> GitHub</button>
+            </div>
+            
             <img src="img/venus1.jpg" alt="" class="intro__img">
         </section>
         
@@ -64,69 +72,49 @@
             
             <div class="portfolio">
                 <!-- Portfolio item 01 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 02 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 03 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 04 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 05 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 06 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 07 -->
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
                 </a>
                 
                 <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
+                <a href="https://venusboutique.netlify.app/" target="blank" class="portfolio__item">
                     <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
-
-                 <!-- Portfolio item 0 0-->
-                 <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-11.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                 <!-- Portfolio item 0 0-->
-                 <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-12.jpg" alt="" class="portfolio__img">
                 </a>
         </section>
         
         
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer" id="contactme">
             <!-- replace with your own email address -->
             <a href="https://www.icloud.com/mail" class="footer__link0" target="https://www.icloud.com/mail">morobanek03@icloud.com</a>
             <ul class="social-list">
@@ -136,13 +124,13 @@
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link2" href="https://www.instagram.com/" target="blank">
-                        <i class="fab fa-instagram"></i>
+                    <a class="social-list__link2" href="https://www.telegram.com/" target="blank">
+                        <i class="fab fa-telegram"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link3" href="https://twitter.com" target="blank">
-                        <i class="fab fa-twitter"></i>
+                    <a class="social-list__link3" href="https://linkedin.com" target="blank">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
