@@ -192,6 +192,21 @@ fab fa-js {
     font-family: var(--ff-primary);  
 }
 
+.bttn5 {
+    color: white;
+    background: purple;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 2;
+    font-family: var(--ff-primary);
+}
+
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
